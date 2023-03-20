@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    color: rgb(0, 0, 0);
+ }
+ #hi {
+    height: 2.5vw;
+    width: 35vw;
+    border: solid 1px black;
+    border-radius: 25px 0 0 25px;
+    text-align: center;
+ }
+ #hb {
+    height: 2.5vw;
+    width: 5vw;
+    border-radius: 0 25px 25px 0;
+    border: solid 1px black;
+ }
+
+ main {
+    display: flex;
+    flex-direction: row;
+    transition: ease all .5s;
+ }
+
+ .nav {
+    width: 25%;
+    padding-left: 3vw;
+    background-color: black;
+ }
+ .main {
+    padding-left: 4vw;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+ }
+
+li {
+    padding-top: 4vw;
+    color: aliceblue;
+}
+
+#tn {
+    height: 20vw;
+    width: 30vw;
+    margin-bottom: 0.5vw;
+    margin-top: 1vw;
+    border-radius: 1vw;
+}
+#lg {
+    height: 4vw;
+    border-radius: 2vw;
+    margin-right: 1vw;
+    margin-left: 0.5vw;
+}
+
+#vir {
+    display: flex;
+    flex-direction: column;
+}
+
+#hor {
+    display: flex;
+    flex-direction: row;
+}
+
+#tt {
+    font-weight: bold;
+    margin-top: 4px;
+}
+#cr {
+    margin-top: 4px;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav {
+        display: none;
+    }
+
+    main {
+        justify-content: center;
+        transition: ease all .5s;
+    }
+  }
